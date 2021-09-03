@@ -1,12 +1,10 @@
 /*------------------------------------------------------------------
 [Master Stylesheet]
 
-Assignment:     Midterm: CSS Zen Garden
+Project:    CSS Zen Garden
 Version:        1
-Last change:    March 01, 2020 [added transition for sidebar links]
+Last change:    September 03, 2020 [added transition for sidebar links]
 Author:         Albab Ameem Saifi
-Email:          saif0010@algonquinlive.com
-Student #:      040981922 
 
 
 
@@ -239,11 +237,16 @@ header h2{
         -ms-flex-order: 1;
             order: 1;
     padding: 40px 50px;
+    transition: margin 0.5s;
     box-shadow: 5px 5px 25px -20px #333;
     margin-bottom: 5%;
     border-radius: 22px;
     -webkit-animation: changeBg 5s linear infinite;
             animation: changeBg 5s linear infinite;
+}
+
+.explanation:hover{
+    margin-top: -10px;
 }
 
 .explanation p{
@@ -272,10 +275,15 @@ header h2{
         -ms-flex-order: 4;
             order: 4;
     padding: 40px 50px;
+    transition: margin 0.5s;
     box-shadow: 5px 5px 25px -20px #333;
     border-radius: 22px;
     -webkit-animation: changeBg 5s linear infinite;
             animation: changeBg 5s linear infinite;
+}
+
+.benefits:hover{
+    margin-top: -10px;
 }
 
 .benefits p{
